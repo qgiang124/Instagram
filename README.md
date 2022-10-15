@@ -23,4 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![instagram1](https://user-images.githubusercontent.com/99046066/195972872-500dc7a4-309c-4156-8a42-6f80a48c4f18.gif)
+![ezgif-2-3edadd8433](https://user-images.githubusercontent.com/99046066/196001409-daa6823a-c8cd-4df4-80be-c312f952a5d4.gif)
+![ezgif-2-b105c9b93a](https://user-images.githubusercontent.com/99046066/196001359-7debed8f-a998-40ea-8950-cefb43d3430e.gif)
