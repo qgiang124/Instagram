@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Login View Controller" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign In"/>
                                 <connections>
-                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="myJ-bu-2RX"/>
+                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oJs-ei-GWU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GEQ-84-1wE" userLabel="SignUpButton">
@@ -50,7 +50,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                 <connections>
-                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3XA-Fv-5xp"/>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZzP-1J-Xh3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVq-YC-V28">
@@ -83,8 +83,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="passwordField" destination="VQN-x0-GFf" id="1Xn-cJ-Bpl"/>
-                        <outlet property="userNameField" destination="xjo-fT-xnO" id="Sp3-eO-UVC"/>
+                        <outlet property="passwordField" destination="VQN-x0-GFf" id="Grp-d9-vZM"/>
+                        <outlet property="usernameField" destination="xjo-fT-xnO" id="pfq-y7-hAz"/>
                         <segue destination="cbn-zA-HD4" kind="presentation" identifier="loginToHome" modalPresentationStyle="fullScreen" id="RbB-0q-aW4"/>
                     </connections>
                 </viewController>
