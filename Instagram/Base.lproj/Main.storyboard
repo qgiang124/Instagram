@@ -177,7 +177,7 @@
                                                 <constraint firstItem="dcA-tr-l7C" firstAttribute="leading" secondItem="oZJ-6q-EYV" secondAttribute="trailing" constant="8" id="VRW-ix-vaL"/>
                                                 <constraint firstItem="oZJ-6q-EYV" firstAttribute="top" secondItem="xRn-xX-wb3" secondAttribute="top" constant="8" id="VdK-2Q-JtY"/>
                                                 <constraint firstItem="xRn-xX-wb3" firstAttribute="bottom" secondItem="dcA-tr-l7C" secondAttribute="bottom" constant="8" id="dH2-gA-wck"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dcA-tr-l7C" secondAttribute="trailing" constant="-82.670000000000002" id="jgl-BO-tmR"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dcA-tr-l7C" secondAttribute="trailing" constant="8" id="jgl-BO-tmR"/>
                                                 <constraint firstItem="oZJ-6q-EYV" firstAttribute="leading" secondItem="2oV-2B-eMe" secondAttribute="leading" constant="16" id="uLD-P9-yPc"/>
                                             </constraints>
                                             <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>

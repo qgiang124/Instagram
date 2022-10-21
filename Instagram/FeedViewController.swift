@@ -32,6 +32,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         commentBar.inputTextView.placeholder = "Add comment..."
         commentBar.sendButton.title = "Post"
+        commentBar.delegate = self
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -130,29 +131,12 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let post = posts[indexPath.section]
-        let comments = (post["comments"]) as? [PFObject] ?? []
+        let comments = (post["comments"] as? [PFObject]) ?? []
         
         if indexPath.row == comments.count + 1 {
             showsCommentBar = true
             becomeFirstResponder()
             commentBar.inputTextView.becomeFirstResponder()
         }
-//        comment["text"] = "This is a random comment"
-//        comment["post"] = post
-//        comment["author"] = PFUser.current()
-//
-//        post.add(comment, forKey: "comments")
-        
-        post.saveInBackground{(success, error) in
-            if success {
-                print("Comment saved")
-            }
-            else {
-                print("Comment not saved")
-            }
-        }
     }
-//    @objc func onRefresh() {
-//        
-//    }
 }
